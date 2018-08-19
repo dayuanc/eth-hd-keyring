@@ -1,0 +1,108 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "eth-hd-keyring@^1.2.1",
+        "scope": null,
+        "escapedName": "eth-hd-keyring",
+        "name": "eth-hd-keyring",
+        "rawSpec": "^1.2.1",
+        "spec": ">=1.2.1 <2.0.0",
+        "type": "range"
+      },
+      "/Users/zpli/Desktop/Projects/MOAC/explorers/test/metamask-extension"
+    ]
+  ],
+  "_from": "eth-hd-keyring@>=1.2.1 <2.0.0",
+  "_id": "eth-hd-keyring@1.2.2",
+  "_inCache": true,
+  "_location": "/eth-hd-keyring",
+  "_nodeVersion": "8.0.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/eth-hd-keyring-1.2.2.tgz_1516054114603_0.22859017085283995"
+  },
+  "_npmUser": {
+    "name": "danfinlay",
+    "email": "dan@danfinlay.com"
+  },
+  "_npmVersion": "4.6.1",
+  "_phantomChildren": {
+    "bn.js": "4.11.8",
+    "create-hash": "1.2.0",
+    "ethjs-util": "0.1.4",
+    "keccak": "1.4.0",
+    "rlp": "2.0.0",
+    "safe-buffer": "5.1.2",
+    "secp256k1": "3.5.0"
+  },
+  "_requested": {
+    "raw": "eth-hd-keyring@^1.2.1",
+    "scope": null,
+    "escapedName": "eth-hd-keyring",
+    "name": "eth-hd-keyring",
+    "rawSpec": "^1.2.1",
+    "spec": ">=1.2.1 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/",
+    "/eth-keyring-controller"
+  ],
+  "_resolved": "https://registry.npmjs.org/eth-hd-keyring/-/eth-hd-keyring-1.2.2.tgz",
+  "_shasum": "ad5f479074436a93b439b0b95c79095c28791882",
+  "_shrinkwrap": null,
+  "_spec": "eth-hd-keyring@^1.2.1",
+  "_where": "/Users/zpli/Desktop/Projects/MOAC/explorers/test/metamask-extension",
+  "author": {
+    "name": "Dan Finlay"
+  },
+  "bugs": {
+    "url": "https://github.com/MetaMask/eth-hd-keyring/issues"
+  },
+  "dependencies": {
+    "bip39": "^2.2.0",
+    "eth-sig-util": "^1.4.2",
+    "ethereumjs-util": "^5.1.1",
+    "ethereumjs-wallet": "^0.6.0",
+    "events": "^1.1.1",
+    "xtend": "^4.0.1"
+  },
+  "description": "A simple standard interface for a seed phrase generated set of Ethereum accounts.",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "extend": "^3.0.0",
+    "mocha": "^3.2.0",
+    "web3": "^0.18.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "ad5f479074436a93b439b0b95c79095c28791882",
+    "tarball": "https://registry.npmjs.org/eth-hd-keyring/-/eth-hd-keyring-1.2.2.tgz"
+  },
+  "gitHead": "44169d1b1891763120bb833ccb7d9eba7aa3ab94",
+  "homepage": "https://github.com/MetaMask/eth-hd-keyring#readme",
+  "keywords": [
+    "ethereum",
+    "keyring"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "danfinlay",
+      "email": "dan@danfinlay.com"
+    }
+  ],
+  "name": "eth-hd-keyring",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MetaMask/eth-hd-keyring.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.2.2"
+}
